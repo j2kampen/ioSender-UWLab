@@ -40,7 +40,7 @@
                 <MenuItem x:Uid="mnu_openConsole" x:Name="menuOpenConsole" Header="_Open Console" Click="openConsoleMenuItem_Click"/>
                 <MenuItem x:Uid="mnu_exit" Header="_Exit" Click="exitMenuItem_Click"/>
             </MenuItem>
-            <MenuItem x:Uid="mnu_camera" x:Name="menuCamera" Header="_Camera">
+            <MenuItem x:Uid="mnu_camera" x:Name="menuCamera" Header="_Camera" Visibility="Collapsed">
                 <MenuItem x:Uid="mnu_open" Header="_Open" Click="CameraOpen_Click"/>
             </MenuItem>
             <MenuItem x:Uid="mnu_help" x:Name="menuHelp" Header="_Help">
