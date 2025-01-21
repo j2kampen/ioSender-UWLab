@@ -131,8 +131,8 @@
             <TabItem x:Uid="tab_probing" x:Name="tabProbing" Header="Probing" Visibility="Collapsed">
                 <cncprobingcontrols:ProbingView x:Name="probingView"/>
             </TabItem>
-            <TabItem x:Uid="tab_sdCard" x:Name="tabSDCard" Header="SD Card">
-                <cnccontrols:SDCardView x:Name="SDCardView" FileSelected="SDCardView_FileSelected" Visibility="Collapsed"/>
+            <TabItem x:Uid="tab_sdCard" x:Name="tabSDCard" Header="SD Card" Visibility="Collapsed">
+                <cnccontrols:SDCardView x:Name="SDCardView" FileSelected="SDCardView_FileSelected"/>
             </TabItem>
             <TabItem x:Uid="tab_turning" x:Name="tabTurning" Header="Turning" Visibility="Collapsed">
                 <cnclathecontrols:TurningWizard x:Name="turningWizard"/>
