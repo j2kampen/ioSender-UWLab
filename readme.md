@@ -9,8 +9,8 @@ This is a custom fork of ioSender (2.0.45), modified to better support a CNC pla
 - **User Interface Simplifications**: Removed unnecessary buttons and features, such as Z-axis jogging (since our plasma cutter operates without active Z-axis movement) and probing.
 
 ## Installation
-1. Clone this repository
-2. Build the application following the original ioSender build instructions.
+1. Download and extract the latest release.
+2. Run ioSender.exe to start the application.
 
 ## Date
-January 30, 2025
+February 7, 2025
